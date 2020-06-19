@@ -1,0 +1,107 @@
+
+
+@charset "utf-8";
+@font-face {
+  font-family: 'Droid Sans';
+  src: url('../fonts/DroidSans-Bold.eot');
+  src: url('../fonts/DroidSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/DroidSans-Bold.woff2') format('woff2'),
+      url('../fonts/DroidSans-Bold.woff') format('woff'),
+      url('../fonts/DroidSans-Bold.ttf') format('truetype'),
+      url('../fonts/DroidSans-Bold.svg#DroidSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  src: url('../fonts/DroidSans.eot');
+  src: url('../fonts/DroidSans.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/DroidSans.woff2') format('woff2'),
+      url('../fonts/DroidSans.woff') format('woff'),
+      url('../fonts/DroidSans.ttf') format('truetype'),
+      url('../fonts/DroidSans.svg#DroidSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'supermarket';
+  src: url('../fonts/subset-supermarket.eot');
+  src: url('../fonts/subset-supermarket.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/subset-supermarket.woff2') format('woff2'),
+      url('../fonts/subset-supermarket.woff') format('woff'),
+      url('../fonts/subset-supermarket.ttf') format('truetype'),
+      url('../fonts/subset-supermarket.svg#supermarket') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF !important;
+    font-family: 'Droid Sans', 'supermarket';
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 span, p{
+    font-family: 'Droid Sans', 'supermarket' !important;
+}
+
+h2{
+    cursor: pointer;
+}
+
+#header{
+    width: 100vw;
+    background-color: #777;
+    color:#FAFAFA;
+    padding: 3% 0% 2.5% 0%;
+}
+
+#header img{
+    border-radius: 15px 15px 15px 15px;
+}
+
+#header h1{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#details{
+    width: 100vw;
+    padding: 3% 0% 3% 0%;
+}
+
+#footer{
+    width: 100vw;
+    background-color: #777;
+    color:#FAFAFA;
+    padding: 1% 0% 3% 0%;
+}
+
+ul li{
+    border-bottom: .1em solid #666;
+}
+
+.pdf{
+    cursor: pointer;
+    position: fixed;
+    right: 3%;
+    top: 50%;
+    font-size: 3em;
+}
+
+.content-center{
+    text-align: center;
+}
+
+.content-left{
+    text-align: left;
+}
+
+.content-right{
+    text-align: right;
+}
+
