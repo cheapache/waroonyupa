@@ -40,7 +40,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #FFF !important;
+    background-color: #EAEAEA !important;
     font-family: 'Droid Sans', 'supermarket';
     overflow-x: hidden;
 }
@@ -55,8 +55,7 @@ h2{
 
 #header{
     width: 100vw;
-    background-color: #777;
-    color:#FAFAFA;
+    background-color: #EAEAEA;
     padding: 3% 0% 2.5% 0%;
 }
 
@@ -76,13 +75,14 @@ h2{
 
 #footer{
     width: 100vw;
-    background-color: #777;
-    color:#FAFAFA;
-    padding: 1% 0% 3% 0%;
+    background-color: #333;
+    color:#EAEAEA;
+    padding: 1% 0% 1% 0%;
 }
 
 ul li{
-    border-bottom: .1em solid #666;
+    border-bottom: .1em solid #333;
+    margin-bottom: 2rem;
 }
 
 .pdf{
@@ -91,6 +91,59 @@ ul li{
     right: 3%;
     top: 50%;
     font-size: 3em;
+}
+
+.profile-picture{
+    width: 30%;
+}
+
+.profile-name{
+    color: #AB8C4E;
+}
+
+.profile-detail{
+    color: #333;
+}
+
+.profile-contact{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #333;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.profile-contact i {
+    color: #AB8C4E;
+    font-size:  2rem;
+}
+
+.profile-contact p {
+    color: #EAEAEA;
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.profile-contact p a {
+    color: #EAEAEA;
+}
+
+.fa-icons{
+    color: #AB8C4E;
+}
+
+.li-timeperiod{
+    color: #AB8C4E;
+    font-weight: bold;
+}
+
+.li-skills{
+    border-bottom: 0px;
+}
+
+.content-header{
+    padding: 0px 10px 0px 10px;
 }
 
 .content-center{
