@@ -144,6 +144,10 @@ ul .li-experiences{
     font-size: 1.5rem;
 }
 
+.p-position {
+    font-weight: bold;
+}
+
 .p-hl {
     color: #AEBFD7;
     font-size: 1.8rem;
