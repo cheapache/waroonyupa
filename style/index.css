@@ -40,7 +40,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #EAEAEA !important;
+    background: #FFFFFF;
     font-family: 'Droid Sans', 'supermarket';
     overflow-x: hidden;
 }
@@ -54,8 +54,7 @@ h2{
 }
 
 #header{
-    width: 100vw;
-    background-color: #EAEAEA;
+    background: #F5F5F5;
     padding: 3% 0% 2.5% 0%;
 }
 
@@ -69,19 +68,17 @@ h2{
 }
 
 #details{
-    width: 100vw;
     padding: 3% 0% 3% 0%;
 }
 
 #footer{
-    width: 100vw;
-    background-color: #333;
+    background: linear-gradient(to right, #8cb4d2, #28487f);
     color:#EAEAEA;
     padding: 1% 0% 1% 0%;
 }
 
-ul li{
-    border-bottom: .1em solid #333;
+ul .li-experiences{
+    border-bottom: .1em solid #28487f;
     margin-bottom: 2rem;
 }
 
@@ -98,24 +95,24 @@ ul li{
 }
 
 .profile-name{
-    color: #AB8C4E;
+    color: #28487f;
 }
 
 .profile-contact{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background-color: #333;
+    background: linear-gradient(to right, #8cb4d2, #28487f);
     font-size: 1.8rem;
     text-align: center;
 }
 
 .profile-contact i {
-    color: #AB8C4E;
+    color: #FFFFFF;
     font-size:  2rem;
 }
 
 .profile-contact p {
-    color: #EAEAEA;
+    color: #FFFFFF;
     display: inline-block;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -126,16 +123,16 @@ ul li{
 }
 
 .profile-detail{
-    color: #333;
+    color: #333333;
     font-size: 1.7rem;
 }
 
 .fa-icons{
-    color: #AB8C4E;
+    color: #8cb4d2;
 }
 
-.li-timeperiod{
-    color: #AB8C4E;
+.li-timeperiod {
+    color: #28487f;
     font-weight: bold;
 }
 
@@ -143,8 +140,14 @@ ul li{
     border-bottom: 0px;
 }
 
-.li p{
+.li p {
     font-size: 1.5rem;
+}
+
+.p-hl {
+    color: #AEBFD7;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .content-header{
