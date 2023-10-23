@@ -82,16 +82,11 @@ ul .li-experiences{
     margin-bottom: 2rem;
 }
 
-.pdf{
-    cursor: pointer;
-    position: fixed;
-    right: 3%;
-    top: 50%;
-    font-size: 3em;
-}
-
-.profile-picture{
-    width: 30%;
+.profile-picture {
+    width: 35%;
+    border: 2px solid #8cb4d2; /* Add a white border */
+    background-color: #b0cfe7; /* Set the background to white */
+    object-fit: cover; /* Ensure the image fits within the circle */
 }
 
 .profile-name{
@@ -120,6 +115,12 @@ ul .li-experiences{
 
 .profile-contact p a {
     color: #EAEAEA;
+    font-size: 1.1em;
+}
+
+.profile-contact i {
+    font-size: 1.5em;
+    padding: 5px;
 }
 
 .profile-detail{
@@ -142,6 +143,15 @@ ul .li-experiences{
 
 .li p {
     font-size: 1.5rem;
+}
+
+.ul-skill-detail {
+    list-style-type: none;
+    padding: 0;
+}
+
+.arrow-pointer {
+    margin-right: 1vw;
 }
 
 .p-position {
@@ -168,5 +178,20 @@ ul .li-experiences{
 
 .content-right{
     text-align: right;
+}
+
+.img-tools {
+    width: 4vw;
+    margin: 5px;
+    border-radius: 50%; /* Rounded images */
+}
+
+.img-tools:hover {
+    transform: scale(1.2); /* Enlarge the image on hover */
+    transition: transform 0.3s ease;
+}
+
+.tools-menu {
+    text-align: left;
 }
 
